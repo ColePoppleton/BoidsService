@@ -1,0 +1,18 @@
+# ninja log v6
+34	204	7640024168666436	BoidsService_autogen/timestamp	b233389799b23a71
+34	204	7640024168666436	BoidsService_autogen/mocs_compilation.cpp	b233389799b23a71
+206	2369	7640024170396444	CMakeFiles/BoidsService.dir/src/BoidsSystem.cpp.obj	c8b1228d86c07fc7
+34	204	7640024168666436	C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/BoidsService_autogen/timestamp	b233389799b23a71
+34	204	7640024168666436	C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/BoidsService_autogen/mocs_compilation.cpp	b233389799b23a71
+704	917	7640017320264466	CMakeFiles/BoidsService.dir/BoidsService_autogen/mocs_compilation.cpp.obj	51088ec8fd68d9e
+2369	2607	7640024194281782	libBoidsService.dll	8c608263b64c3f85
+2369	2607	7640024194281782	libBoidsService.dll.a	8c608263b64c3f85
+214	2232	7640024170476474	CMakeFiles/BoidsService.dir/tests/boidsystem_test_utils.cpp.obj	e44cf40a994ad7d
+29	287	7640024551954195	boidsystem_tests_autogen/timestamp	5562c891ffad20b6
+288	386	7640024552684205	CMakeFiles/boidsystem_tests.dir/boidsystem_tests_autogen/mocs_compilation.cpp.obj	a0ff3ce59604995
+29	287	7640024551954195	boidsystem_tests_autogen/mocs_compilation.cpp	5562c891ffad20b6
+313	2099	7640024552934204	CMakeFiles/boidsystem_tests.dir/tests/boidsystem_test_utils.cpp.obj	224b14f82524acf4
+2275	2530	7640024572554195	boidsystem_tests.exe	6075b8f0264409dd
+29	287	7640024551954195	C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/boidsystem_tests_autogen/timestamp	5562c891ffad20b6
+29	287	7640024551954195	C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/boidsystem_tests_autogen/mocs_compilation.cpp	5562c891ffad20b6
+301	2275	7640024552814199	CMakeFiles/boidsystem_tests.dir/tests/boidsystem_tests.cpp.obj	47112d2214b07873

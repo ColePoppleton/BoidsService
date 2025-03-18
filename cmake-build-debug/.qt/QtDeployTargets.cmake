@@ -1,0 +1,6 @@
+set(__QT_DEPLOY_TARGET_BoidsService_FILE C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/libBoidsService.dll)
+set(__QT_DEPLOY_TARGET_BoidsService_TYPE SHARED_LIBRARY)
+set(__QT_DEPLOY_TARGET_BoidsService_RUNTIME_DLLS C:/Qt/6.9.0/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.9.0/mingw_64/bin/Qt6Core.dll)
+set(__QT_DEPLOY_TARGET_boidsystem_tests_FILE C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/boidsystem_tests.exe)
+set(__QT_DEPLOY_TARGET_boidsystem_tests_TYPE EXECUTABLE)
+set(__QT_DEPLOY_TARGET_boidsystem_tests_RUNTIME_DLLS C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/libBoidsService.dll;C:/Qt/6.9.0/mingw_64/bin/Qt6Gui.dll;C:/Qt/6.9.0/mingw_64/bin/Qt6Core.dll)

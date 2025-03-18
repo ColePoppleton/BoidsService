@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BoidsService",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BoidsService::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BoidsService-Debug-dae9e864e3945b048084.json",
+					"name" : "BoidsService",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BoidsService_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BoidsService_autogen-Debug-4b8af162edb4f60eb1d2.json",
+					"name" : "BoidsService_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BoidsService_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BoidsService_autogen_timestamp_deps-Debug-f247329a00e26a346800.json",
+					"name" : "BoidsService_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "boidsystem_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-boidsystem_tests-Debug-4234386c40868eea627c.json",
+					"name" : "boidsystem_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "boidsystem_tests_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-boidsystem_tests_autogen-Debug-de3784f2418635e6e12f.json",
+					"name" : "boidsystem_tests_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "boidsystem_tests_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-boidsystem_tests_autogen_timestamp_deps-Debug-3fa031c47c427be5ed46.json",
+					"name" : "boidsystem_tests_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug",
+		"source" : "C:/Users/colep/CLionProjects/BoidsService"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
