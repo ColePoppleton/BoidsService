@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.20)
-project(BoidsService VERSION 1.0.0 LANGUAGES CXX)
+project(BoidsService)
+set(PROJECT_VERSION "1.0.0")
+
+# Include the CMakePackageConfigHelpers module
+include(CMakePackageConfigHelpers)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -24,3 +28,30 @@ set_target_properties(BoidsService PROPERTIES PUBLIC_HEADER "include/BoidsServic
 
 add_executable(boidsystem_tests tests/boidsystem_tests.cpp tests/boidsystem_test_utils.cpp)
 target_link_libraries(boidsystem_tests BoidsService Qt6::Gui)
+
+# Install the library and headers
+install(TARGETS BoidsService
+        EXPORT BoidsServiceTargets
+        LIBRARY DESTINATION lib
+        ARCHIVE DESTINATION lib)
+
+install(DIRECTORY include/BoidsService/ DESTINATION include)
+
+# Create a CMake configuration file
+install(EXPORT BoidsServiceTargets
+        FILE BoidsServiceConfig.cmake
+        NAMESPACE BoidsService::
+        DESTINATION lib/cmake/BoidsService)
+
+# Create a BoidsServiceConfigVersion.cmake file
+write_basic_package_version_file(
+        "${CMAKE_BINARY_DIR}/lib/cmake/BoidsService/BoidsServiceConfigVersion.cmake"
+        VERSION "${PROJECT_VERSION}"
+        COMPATIBILITY AnyNewerVersion
+)
+
+# Export the BoidsServiceConfigVersion.cmake file
+install(FILES
+        "${CMAKE_BINARY_DIR}/lib/cmake/BoidsService/BoidsServiceConfigVersion.cmake"
+        DESTINATION lib/cmake/BoidsService
+)

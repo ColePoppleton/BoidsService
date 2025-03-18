@@ -16,3 +16,16 @@
 29	287	7640024551954195	C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/boidsystem_tests_autogen/timestamp	5562c891ffad20b6
 29	287	7640024551954195	C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/boidsystem_tests_autogen/mocs_compilation.cpp	5562c891ffad20b6
 301	2275	7640024552814199	CMakeFiles/boidsystem_tests.dir/tests/boidsystem_tests.cpp.obj	47112d2214b07873
+41	164	7640051831019929	BoidsService_autogen/timestamp	b233389799b23a71
+41	164	7640051831019929	BoidsService_autogen/mocs_compilation.cpp	b233389799b23a71
+41	164	7640051831019929	C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/BoidsService_autogen/timestamp	b233389799b23a71
+41	164	7640051831019929	C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/BoidsService_autogen/mocs_compilation.cpp	b233389799b23a71
+165	1973	7640051832259922	CMakeFiles/BoidsService.dir/src/BoidsSystem.cpp.obj	c8b1228d86c07fc7
+1973	2159	7640051852109922	libBoidsService.dll	8c608263b64c3f85
+1973	2159	7640051852109922	libBoidsService.dll.a	8c608263b64c3f85
+35	168	7640051853449939	boidsystem_tests_autogen/timestamp	5562c891ffad20b6
+35	168	7640051853449939	boidsystem_tests_autogen/mocs_compilation.cpp	5562c891ffad20b6
+35	168	7640051853449939	C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/boidsystem_tests_autogen/timestamp	5562c891ffad20b6
+35	168	7640051853449939	C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/boidsystem_tests_autogen/mocs_compilation.cpp	5562c891ffad20b6
+169	1990	7640051854799956	CMakeFiles/boidsystem_tests.dir/tests/boidsystem_tests.cpp.obj	47112d2214b07873
+1991	2185	7640051873009931	boidsystem_tests.exe	6075b8f0264409dd

@@ -2,6 +2,10 @@ C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/CMakeFiles/BoidsServ
 C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/CMakeFiles/boidsystem_tests.dir
 C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/CMakeFiles/list_install_components.dir
+C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/CMakeFiles/install.dir
+C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/CMakeFiles/install/local.dir
+C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/CMakeFiles/install/strip.dir
 C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/CMakeFiles/BoidsService_autogen_timestamp_deps.dir
 C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/CMakeFiles/BoidsService_autogen.dir
 C:/Users/colep/CLionProjects/BoidsService/cmake-build-debug/CMakeFiles/boidsystem_tests_autogen_timestamp_deps.dir
