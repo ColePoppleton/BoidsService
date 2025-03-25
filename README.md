@@ -23,7 +23,7 @@ The `BoidsService` library provides a `BoidsSystem` class that manages a collect
 
 *   CMake (version 3.20 or higher)
 *   C++ compiler with C++20 support
-*   Qt 6
+*   Qt 6.9.0
 
 ### Building the Library
 
