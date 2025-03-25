@@ -26,11 +26,11 @@ jobs:
         run: |
           cmake -B ${{ github.workspace }}/build ^
           -DQt6_DIR="$Env:QtHome\6.6.1\msvc2019_64\lib\cmake\Qt6" ^
-          -DCMAKE_BUILD_TYPE=Release # Or Debug if you prefer
+          -DCMAKE_BUILD_TYPE=Debug
 
       - name: Build
         shell: cmd
-        run: cmake --build ${{ github.workspace }}/build --config Release
+        run: cmake --build ${{ github.workspace }}/build --config Debug
 
       - name: Run Tests
         shell: cmd
