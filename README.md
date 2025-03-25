@@ -1,6 +1,6 @@
 # BoidsService Library
 
-[![CMake](https://github.com/ColePoppleton/BoidsService/actions/workflows/cmake.yml/badge.svg)](https://github.com/your-username/BoidsService/actions/workflows/cmake.yml)
+[![CMake](https://github.com/ColePoppleton/BoidsService/actions/workflows/cmake.yml/badge.svg)](https://github.com/ColePoppleton/BoidsService/actions/workflows/cmake.yml)
 
 This C++ library implements a Boids system, a model for simulating flocking behavior often used in computer graphics and simulations. This specific implementation is designed as a foundational component for a larger system simulating marine life migratory patterns, particularly in conjunction with neural network predictions and environmental data.  It uses Qt for vector math.
 
