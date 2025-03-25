@@ -90,5 +90,5 @@ Use code with caution.
 ## Contributing
 Contributions are not welcome! This is a repository for a final year dissertation, it will be opened to contributions in July 2026.
 
-License
+## License
 This project is licensed under the MIT License.
