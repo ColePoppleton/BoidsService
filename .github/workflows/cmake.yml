@@ -16,7 +16,7 @@ jobs:
       - name: Install Qt
         uses: jurplel/install-qt-action@v3
         with:
-          version: '6.6.1'
+          version: '6.6.1' # Or whatever version you're using
           host: 'windows'
           target: 'desktop'
           arch: 'win64_msvc2019_64'
@@ -26,7 +26,7 @@ jobs:
         run: |
           cmake -B ${{ github.workspace }}/build ^
           -DQt6_DIR="$Env:QtHome\6.6.1\msvc2019_64\lib\cmake\Qt6" ^
-          -DCMAKE_BUILD_TYPE=Release
+          -DCMAKE_BUILD_TYPE=Release # Or Debug if you prefer
 
       - name: Build
         shell: cmd
