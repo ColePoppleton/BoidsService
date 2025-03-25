@@ -14,7 +14,7 @@ find_package(Qt6 COMPONENTS Gui REQUIRED)
 
 include_directories(include)
 
-add_library(BoidsService SHARED
+add_library(BoidsService STATIC
         src/BoidsSystem.cpp
         include/BoidsService/BoidsSystem.h
         tests/boidsystem_test_utils.cpp
