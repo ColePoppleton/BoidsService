@@ -9,9 +9,6 @@ using namespace BoidsService::Tests;
 int main() {
     srand(time(0));
 
-    // --- Unit Tests ---
-
-    // Test: BoidsSystem Initialization
     {
         std::string testName = "BoidsSystem Initialization";
         BoidsSystem boidsSystem(10, 100.0f);
@@ -19,7 +16,6 @@ int main() {
         reportTestResult(testName, passed);
     }
 
-    // Test: Boid Structure
     {
         std::string testName = "Boid Structure";
         BoidsSystem boidsSystem(1, 100.0f);
@@ -30,7 +26,6 @@ int main() {
         reportTestResult(testName, passed);
     }
 
-    // Test: Spherical Mapping
     {
         std::string testName = "Spherical Mapping";
         BoidsSystem boidsSystem(1, 100.0f);
@@ -39,7 +34,6 @@ int main() {
         reportTestResult(testName, passed);
     }
 
-    // Test: Setters and Getters
     {
         std::string testName = "Setters and Getters";
         BoidsSystem boidsSystem(1, 100.0f);
@@ -61,9 +55,6 @@ int main() {
         reportTestResult(testName, passed);
     }
 
-    // --- Integration Tests ---
-
-    // Test: Boids Update (Basic Movement)
     {
         std::string testName = "Boids Update (Basic Movement)";
         BoidsSystem boidsSystem(1, 100.0f);
@@ -74,21 +65,17 @@ int main() {
         reportTestResult(testName, passed);
     }
 
-    // Test: Boids Update (Boundary Handling)
     {
         std::string testName = "Boids Update (Boundary Handling)";
         BoidsSystem boidsSystem(1, 100.0f);
         Boid boid = boidsSystem.getBoids()[0];
-        boid.position = QVector3D(1000.0f, 1000.0f, 1000.0f); // Force boid outside bounds
+        boid.position = QVector3D(1000.0f, 1000.0f, 1000.0f); 
         boidsSystem.update(1.0f);
         boid = boidsSystem.getBoids()[0];
-        bool passed = qFuzzyCompare(boid.position.length(), 100.0f); // Check if boid is back on the sphere
+        bool passed = qFuzzyCompare(boid.position.length(), 100.0f);
         reportTestResult(testName, passed);
     }
 
-    // --- Functional Tests ---
-
-    // Test: Boids Flock Behavior (Simplified)
     {
         std::string testName = "Boids Flock Behavior (Simplified)";
         BoidsSystem boidsSystem(10, 100.0f);
@@ -101,7 +88,6 @@ int main() {
         }
         QList<Boid> updatedBoids = boidsSystem.getBoids();
 
-        // This is a very basic check; more sophisticated tests could be added
         float avgInitialX = 0, avgUpdatedX = 0;
         for (const Boid& boid : initialBoids) {
             avgInitialX += boid.position.x();
@@ -112,7 +98,7 @@ int main() {
         avgInitialX /= initialBoids.size();
         avgUpdatedX /= updatedBoids.size();
 
-        bool passed = !qFuzzyCompare(avgInitialX, avgUpdatedX); // Expect some movement
+        bool passed = !qFuzzyCompare(avgInitialX, avgUpdatedX);
         reportTestResult(testName, passed);
     }
 
